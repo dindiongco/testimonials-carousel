@@ -10,6 +10,16 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      fontWeight: {
+        thin: "300",
+        normal: "500",
+        bold: "700",
+      },
+      content: {
+        patternbg: "url('./assets/pattern-bg.svg')",
+        patterncurve: "url('./assets/pattern-curve.svg')",
+        patternquotes: "url('./assets/pattern-quotes.svg')",
+      },
       screens: {
         xs: "480px",
         sm: "768px",

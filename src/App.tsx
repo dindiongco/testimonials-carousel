@@ -3,7 +3,7 @@ import Testimonials from "./Testimonials"
 function App() {
 
   return (
-    <div className="app | container h-full mx-auto ">
+    <div className="app">
       <Testimonials></Testimonials>
     </div>
   )

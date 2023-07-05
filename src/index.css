@@ -8,13 +8,9 @@ html, body, #root, .app {
     height: 100%;
     width: 100%;
     font-family: 'Inter', sans-serif;
-    @apply text-black
+    @apply text-primary-500
 }
 
 .swiper-button-next::after,.swiper-button-prev::after {
     content: "";
-}
-
-.button-wrapper {
-    border: 1px solid black;
 }
